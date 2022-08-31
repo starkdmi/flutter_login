@@ -425,7 +425,7 @@ void main() {
       onSignup: (data) => null,
       onLogin: (data) => null,
       onRecoverPassword: (data) => null,
-      logo: const AssetImage('assets/images/ecorp.png'),
+      logo: Image.asset('assets/images/ecorp.png'),
     ));
     await tester.pumpWidget(flutterLogin);
     await tester.pumpAndSettle(loadingAnimationDuration);
@@ -802,7 +802,7 @@ void main() {
       onSignup: (data) => null,
       onLogin: (data) => null,
       onRecoverPassword: (data) => null,
-      logo: const AssetImage('assets/images/ecorp.png'),
+      logo: Image.asset('assets/images/ecorp.png'),
       title: 'Yang2020',
     ));
 

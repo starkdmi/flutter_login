@@ -52,7 +52,7 @@ class LoginScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return FlutterLogin(
       title: Constants.appName,
-      logo: const AssetImage('assets/images/ecorp.png'),
+      logo: Image.asset('assets/images/ecorp.png', filterQuality: FilterQuality.high),
       logoTag: Constants.logoTag,
       titleTag: Constants.titleTag,
       navigateBackAfterRecovery: true,
